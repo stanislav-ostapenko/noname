@@ -1,0 +1,33 @@
+{
+    "products":
+        [
+            {
+                "header": "Vegetables",
+                "items": [
+                    {
+                        "rating": 5,
+                        "title": "Apple",
+                        "img":"http://www.latestdigitals.com/wp-content/uploads/2013/04/apple2.jpg"
+                    },
+                    {"rating": 3, "title": "Tomato", "img":"http://www.latestdigitals.com/wp-content/uploads/2013/04/apple2.jpg"},
+                    {"rating": 2, "title": "Orange", "img":"http://www.latestdigitals.com/wp-content/uploads/2013/04/apple2.jpg"}
+                ]
+            }
+        ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

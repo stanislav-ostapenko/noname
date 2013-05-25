@@ -1,0 +1,268 @@
+/*================================================
+    Reset CSS
+================================================*/
+
+html {
+	height: 100%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	height: 100%;
+	max-height: 100%;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	font-family: Arial;
+	font-size: 13px;
+	color: #231f20;
+
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+body, div, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	font-family: sans-serif;
+}
+
+div, dl, dt, dd, ul, ol, li, legend, input, button, textarea, p, blockquote, th, td {
+	line-height: 22px;
+	word-spacing: 0.04em
+}
+
+a, a:link, a:focus, a:hover, a:active {
+	outline: none;
+}
+
+a, a:link, a:visited {
+	color: #CCCCCC;
+	background-color: inherit;
+	text-decoration: underline;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover, a:visited:hover {
+	background-color: inherit;
+	text-decoration: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset, img {
+	border: 0;
+}
+
+input[type=radio], input[type=checkbox] {
+	vertical-align: middle;
+	margin: 0;
+}
+
+address, caption, cite, code, dfn, em, th, var, optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+del, ins {
+	text-decoration: none;
+}
+
+caption, th {
+	text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+	color: #000;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+sup {
+	vertical-align: baseline;
+}
+
+sub {
+	vertical-align: baseline;
+}
+
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+input:focus, textarea:focus {
+	outline: none
+}
+
+fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display:block;
+}
+
+ul, ol {
+	margin:0px 0px 0px 20px;
+	padding:10px 0px 10px 0px;
+	list-style-type:disc;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+
+h2 {
+	font-size: 24px;
+	line-height: 24px;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: bold;
+}
+
+/* Clearfix */
+
+.clearfix {
+	display: inline-block;
+}
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0
+}
+
+.clearfix {
+	display:block;
+}
+
+.clear {
+	clear: both;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+/*=====Header====*/
+header#globalHeader {
+    height: 60px;
+    background-image:-webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#8fc33a),color-stop(100%,#739b2e));
+    background-image:-webkit-linear-gradient(top,#8fc33a,#739b2e);background-image:-moz-linear-gradient(top,#8fc33a,#739b2e);
+    background-image:-o-linear-gradient(top,#8fc33a,#739b2e);background-image:linear-gradient(top,#8fc33a,#739b2e);
+    border-bottom:1px solid #567422;
+}
+
+
+/*==Content Section==*/
+.sidebar {
+    width: 10%;
+    height: 100%;
+    display: block;
+}
+
+#productsList {
+    float: left;
+    width: 90%;
+}
+
+#productSearch {
+    width: 30%;
+    max-width: 280px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+
+#productSearch input {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    width: 80%;
+    border-style: solid;
+    border-color: silver #d9d9d9 #d9d9d9;
+    border-width: 1px;
+}
+
+.productsHolder > h2 {
+    margin: 10px 0;
+}
+
+.productImg {
+    float: left;
+    clear: both;
+    margin: 0 10px 10px 0;
+}
+
+.productImg img  {
+    width: 100px;
+    height: 100px;
+    display: block;
+    border: 1px solid #000;
+}
+
+.template {
+    margin-bottom: 10px;
+}
+
+.productImg {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+}
+
+.productImg img {
+    height: 100px;
+    width: 100px;
+}
+
+.prodContainer {
+    float: left;
+}
+
+
+	
+
